@@ -2,10 +2,10 @@ import express from "express";
 import cors from "cors";
 import { connectDB } from "./config/db.js";
 import foodRouter from "./routes/foodRoute.js";
-import userRouter from './routes/userRoute.js';
+import userRouter from "./routes/userRoute.js";
 import cartRouter from "./routes/cartRoute.js";
 
-import 'dotenv/config.js';
+import "dotenv/config.js";
 // import mongoose from "mongoose";
 // import bodyParser from "body-parser";
 // import dotenv from "dotenv";
